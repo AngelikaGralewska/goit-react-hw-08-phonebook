@@ -1,0 +1,47 @@
+.phonebookInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    width: 300px;
+    font-weight:lighter;
+    padding-top: 25px;
+    color: #BB2649;;
+}
+
+.phonebookLabel{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phonebookInput{
+    width: 200px;
+    background-color: #ecd3ca;
+    opacity: 50%;
+    border-color: #BB2649;
+}
+
+.phonebookInputTitle{
+    font-weight:lighter;
+    margin: 0;
+}
+
+
+.buttonAdd{
+    border:  none;
+    cursor: pointer;
+    font-size: small;
+    font-weight: lighter;
+    height: 35px;
+    width: 260px;
+    align-items: center;
+    margin-top: 15px;
+    color: #fff;
+    background: rgb(187,38,73);
+    background: radial-gradient(circle, rgba(187,38,73,1) 0%, rgba(187,38,73,0) 100%);
+}
+
+.buttonAdd:hover{
+    scale: 110%;
+}

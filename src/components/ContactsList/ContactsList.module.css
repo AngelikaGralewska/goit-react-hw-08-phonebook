@@ -1,0 +1,41 @@
+.contactsList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.contactsListItem{
+    display: inline-flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #BB2649;   
+}
+
+.contactsListName{
+    margin-right: 10px;
+    font-size:medium;
+    font-weight: lighter;
+}
+.buttonDelete{
+    border: none;
+    cursor: pointer;
+    font-size: small;
+    font-style: inherit;
+    font-weight: lighter;
+    padding: 2px 7px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgb(187,38,73);
+    background: radial-gradient(circle, rgba(187,38,73,1) 0%, rgba(187,38,73,0) 100%);
+    border-radius: 50%;
+}
+
+.buttonDelete:hover{
+    scale: 115%;
+}
