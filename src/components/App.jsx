@@ -9,6 +9,7 @@ import { useAuth } from 'redux/auth';
 
 import { Layout } from './Layout/Layout';
 import { PrivateRoute, RestrictedRoute } from './Routes/Routes';
+import { Loader } from './Loader/Loader';
 
 
 const Home = lazy(() => import('pages/HomePage'));
@@ -26,7 +27,7 @@ export const App = () => {
   }, [dispatch]);
 
   return isRefreshing ? (
-    <p className={style.text}>Refreshing user...</p>
+    <p className={style.text}>Refreshing user... <Loader /></p>
   ) : (
     <Routes>
       <Route path="/" element={<Layout />}>
