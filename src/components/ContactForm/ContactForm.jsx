@@ -11,11 +11,11 @@ export const ContactForm = () => {
     const handleSubmit = event => {
       event.preventDefault();
        const name = event.target.name.value;
-       const phone = event.target.phone.value;
+       const number = event.target.number.value;
        if (contact.items.find(item => item.name.toLowerCase() === name.toLowerCase())) {
          return alert(`${name} is already in contacts`);
        }
-       dispatch(addContact({ name, phone }));
+       dispatch(addContact({ name, number }));
        event.target.reset();
      };
 
@@ -36,7 +36,7 @@ export const ContactForm = () => {
           <h4 className={style.phonebookInputTitle}>Number:</h4>
             <input
               type="tel"
-              name="phone"
+              name="number"
               pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
               title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
               required

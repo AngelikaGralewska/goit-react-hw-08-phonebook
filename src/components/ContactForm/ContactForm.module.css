@@ -17,8 +17,7 @@
 
 .phonebookInput{
     width: 200px;
-    background-color: #ecd3ca;
-    opacity: 50%;
+    background-color: transparent;
     border-color: #BB2649;
 }
 
