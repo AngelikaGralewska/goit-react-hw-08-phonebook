@@ -3,16 +3,19 @@ import { NavLink } from "react-router-dom";
 import { useAuth } from "redux/auth";
 
 import { AuthNav } from "components/AuthNavigation/AuthNavigation";
-import { UserView } from "components/User/User";
+import { UserView } from "components/UserMenu/UserMenu";
+
+import style from "./Bar.module.css"
+
 
 export const Bar = () => {
     const { isLoggedIn } = useAuth();
   
     return (
-      <header>
+      <header className={style.barDiv}>
         <nav>
-            <NavLink to="/">Home</NavLink>
-            {isLoggedIn && <NavLink to="/contacts">Contacts</NavLink>}
+            <NavLink className={style.barLink} to="/">Home</NavLink>
+            {isLoggedIn && <NavLink className={style.barLink} to="/contacts">Contacts</NavLink>}
         </nav>
         {isLoggedIn ? <UserView /> : <AuthNav />}
       </header>

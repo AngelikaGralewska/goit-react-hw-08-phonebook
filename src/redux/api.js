@@ -76,10 +76,10 @@ export const refresh = createAsyncThunk(
 
 export const fetchContacts = createAsyncThunk(
   'contacts/fetchAll',
-  async () => {
+ async () => {
       const response = await axios.get('/contacts');
       return response.data;
-    }
+   }
 );
 
 export const addContact = createAsyncThunk(
