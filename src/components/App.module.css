@@ -1,23 +1,6 @@
-.title{
-    font-weight: lighter;
-    margin-bottom: 0;
-    margin-top: 35px;
-    color: #BB2649;
-}
-
-.mainDiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 18;
-    background: conic-gradient(from 315deg, #EDCDC2, #FFFFFF);
-    min-height: 650px;
-}
 
 .text{
     font-weight: lighter;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color:#9896A4;
+    padding: 30px;
+    color:#BB2649;
 }

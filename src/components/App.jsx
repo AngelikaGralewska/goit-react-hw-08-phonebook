@@ -2,7 +2,7 @@ import { useEffect, lazy } from 'react';
 import { Route, Routes} from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 
-//import style from './App.module.css';
+import style from './App.module.css';
 
 import { refresh } from 'redux/api';
 import { useAuth } from 'redux/auth';
@@ -26,7 +26,7 @@ export const App = () => {
   }, [dispatch]);
 
   return isRefreshing ? (
-    <b>Refreshing user...</b>
+    <p className={style.text}>Refreshing user...</p>
   ) : (
     <Routes>
       <Route path="/" element={<Layout />}>
