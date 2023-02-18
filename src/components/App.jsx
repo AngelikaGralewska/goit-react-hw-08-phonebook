@@ -2,7 +2,7 @@ import { useEffect, lazy } from 'react';
 import { Route, Routes} from 'react-router';
 import { useDispatch } from 'react-redux';
 
-import style from './App.module.css';
+//import style from './App.module.css';
 
 import { refresh } from 'redux/api';
 import { useAuth } from 'redux/auth';
