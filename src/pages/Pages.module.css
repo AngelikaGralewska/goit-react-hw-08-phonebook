@@ -5,14 +5,18 @@
     color: #BB2649;
 }
 
+.titleHome{
+    font-weight: lighter;
+    color: #BB2649; 
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
 .mainDiv{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
     flex-direction: column;
-    font-size: 18;
-    color: '#010101';
-    background: conic-gradient(from 315deg, #EDCDC2, #FFFFFF);
 }
 
 .text{

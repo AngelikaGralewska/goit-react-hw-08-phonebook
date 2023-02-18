@@ -38,7 +38,6 @@
     align-items: center;
     margin-top: 15px;
     color: #fff;
-    background: rgb(187,38,73);
     background: radial-gradient(circle, rgba(187,38,73,1) 0%, rgba(187,38,73,0) 100%);
 }
 

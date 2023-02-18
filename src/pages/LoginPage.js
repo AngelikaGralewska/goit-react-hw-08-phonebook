@@ -5,7 +5,7 @@ import { selectIsLoading, selectError } from "redux/selectors";
 import { Loader } from "components/Loader/Loader";
 import { SingIn } from "components/SingIn/SingIn";
 
-export const LogIn = () => {
+const LogIn = () => {
     const isLoading = useSelector(selectIsLoading);
     const error = useSelector(selectError);
     return (
@@ -18,3 +18,5 @@ export const LogIn = () => {
       </div>
     );
   }
+
+  export default LogIn;

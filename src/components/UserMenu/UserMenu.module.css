@@ -1,0 +1,32 @@
+.userDiv{
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.userText{
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+.userButton{
+    border: none;
+    cursor: pointer;
+    font-size:small;
+    font-style: inherit;
+    font-weight: lighter;
+    width: 100px;
+    height: 30px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    color: #BB2649;
+    background: radial-gradient(circle, #EDCDC2 0%, rgba(187,38,73,0) 100%);
+}
+
+.userButton:hover{
+    scale: 115%;
+}

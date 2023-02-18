@@ -12,9 +12,7 @@ import { Loader } from "components/Loader/Loader";
 
 import style from "./Pages.module.css"
 
-
-
-export const Contacts = () => {
+ const Contacts = () => {
     const dispatch = useDispatch();
     const contact = useSelector(selectContacts);
     const isLoading = useSelector(selectIsLoading);
@@ -43,3 +41,4 @@ export const Contacts = () => {
       </div> 
     );
 };
+export default Contacts;
