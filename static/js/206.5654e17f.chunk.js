@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[206],{1206:function(e,t,a){a.r(t),a.d(t,{Home:function(){return s}});var i=a(58),n=a(184),s=function(){return(0,n.jsx)("div",{className:i.Z.mainDiv,children:(0,n.jsx)("h2",{className:i.Z.title,children:"This is your place for saving contacts"})})}},58:function(e,t){t.Z={title:"Pages_title__QY64X",mainDiv:"Pages_mainDiv__Z08fg",text:"Pages_text__3EfdT"}}}]);
-//# sourceMappingURL=206.5654e17f.chunk.js.map
