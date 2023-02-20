@@ -5,17 +5,17 @@ import { useDispatch } from 'react-redux';
 import style from './App.module.css';
 
 import { refresh } from 'redux/api';
-import { useAuth } from 'redux/auth';
+import { useAuth } from 'hooks/auth';
 
-import { Layout } from './Layout/Layout';
-import { PrivateRoute, RestrictedRoute } from './Routes/Routes';
+import { Layout } from '../layout/Layout';
+import { PrivateRoute, RestrictedRoute } from '../routes/Routes';
 import { Loader } from './Loader/Loader';
 
 
-const Home = lazy(() => import('pages/HomePage'));
-const Registration = lazy(() => import('pages/RegistrationPages'));
-const LogIn = lazy(() => import('pages/LoginPage'));
-const Contacts = lazy(() => import('pages/ContactsPage'));
+const Home = lazy(() => import('pages/Home'));
+const Registration = lazy(() => import('pages/Registration'));
+const LogIn = lazy(() => import('pages/Login'));
+const Contacts = lazy(() => import('pages/Contacts'));
 
 export const App = () => {
   const dispatch = useDispatch();

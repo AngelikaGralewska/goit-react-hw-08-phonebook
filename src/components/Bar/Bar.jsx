@@ -1,6 +1,5 @@
-///import { Navigate } from "react-router";
 import { NavLink } from "react-router-dom";
-import { useAuth } from "redux/auth";
+import { useAuth } from "hooks/auth";
 
 import { AuthNav } from "components/AuthNavigation/AuthNavigation";
 import { UserView } from "components/UserMenu/UserMenu";

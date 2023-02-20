@@ -10,7 +10,6 @@ export const filterSlice = createSlice({
   reducers: {
     setFilter(state, action) {
       state.filter = action.payload;
-      //.toLowerCase();
     },
   },
 });

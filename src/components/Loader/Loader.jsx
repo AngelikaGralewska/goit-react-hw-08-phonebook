@@ -16,7 +16,6 @@ export const Loader = isLoading => {
             transform: 'translate(-50%, -50%)',
             zIndex: 2,
         }}
-        //wrapperClassName=""
         visible={Boolean(isLoading)}
         />
     );
